@@ -1,0 +1,25 @@
+body {
+        background-color: black;
+        justify-items: center;
+        font-size:larger;
+        color:rgb(80, 200, 120);
+
+}
+
+h1{
+        color:rgb(255, 215, 0);
+        font-size:x-large;
+
+
+}
+
+p{
+        color:silver;
+        font-size:large;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: blue;
+        text-decoration-thickness: 2px;
+
+}  
+    
