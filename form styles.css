@@ -3,6 +3,9 @@ body {
         justify-items: center;
         font-size:larger;
         color:rgb(80, 200, 120);
+        display: flex;
+        flex-direction: column;
+        align-items:center
 
 }
 
@@ -22,4 +25,40 @@ p{
         text-decoration-thickness: 2px;
 
 }  
+
+.input-control {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  height: 14px;
+}
+
+.success-icon {
+  color: green;
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+}
+
+.failure-icon {
+  color: red;
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+}
+
+button{
+        background-color:rgb(80, 200, 120);
+        color:silver;
+        font-size:large;
+        justify-content:center;;
+}
+
+
     
